@@ -2,7 +2,7 @@ services:
   database:
     image: mysql:8.0.31
     environment:
-      MYSQL_DATABASE: ptat
+      MYSQL_DATABASE: bloganore
       MYSQL_ROOT_PASSWORD: password
     ports:
       - 3306:3306

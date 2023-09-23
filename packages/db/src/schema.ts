@@ -6,7 +6,7 @@ import {
     varchar,
 } from "drizzle-orm/mysql-core";
 
-export const TABLE_PREFIX = "Ptat_";
+export const TABLE_PREFIX = "bloganore_";
 
 const mysqlTable = mysqlTableCreator((name) => `${TABLE_PREFIX}${name}`);
 
